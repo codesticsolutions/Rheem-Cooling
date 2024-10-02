@@ -1,0 +1,298 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    background: #fff;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+.w-45{
+    width: 45%;
+}
+.w-35{
+    width: 35%;
+}
+.blue-color{
+    color: #416E9B;
+}
+.blue-color:hover{
+    color: #629ad1;
+}
+.box{
+    max-width: 400px; 
+}
+/* search bar style */
+.search{
+    height: 50px;
+    max-width: 50px;
+    box-shadow:0 5px 5px rgba(0, 0, 0, 0.25) ;
+    transition: all 0.3s ease;
+
+}
+#check:checked ~ .search{ 
+    max-width: 300px;
+}
+#check{
+    display: none;
+}
+.inp{
+    outline: 0;
+    border: 3px solid  #416E9B ;
+}
+.bg-blue{
+    background-color: #416E9B;
+}
+.icon{
+    line-height: 50px;
+}
+.w-50px{
+    width: 50px;
+}
+.h-650{
+    height: 650px;
+}
+/* dropdown list */
+.under-list{
+    min-width: 208px;
+    display: none;
+    top: 65px;
+}
+
+.list-item-2{
+    display: block;
+    padding: 10px;
+}
+.nav-item:hover .under-list{
+	display:block;
+}
+.list-a-2{
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    padding: 8px;
+    font-weight: 500;
+}
+/* border animation animation  */
+.nav-link:after{
+    content: '';
+    display: block;
+    margin: 0px 0px 5px 0px;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    transition: width .5s ease, background-color .5s ease;
+}
+.nav-link:hover:after{
+    width: 100%;
+    background: #416E9B;}
+/* black-color */
+.text-blacks{
+    color: #424242;
+}
+/* cARD silder start */
+html,
+body {
+  position: relative;
+  height: 535px;
+}
+
+.swiper {
+  width: 100%;
+  height: 535px ;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  max-width: 30%;
+  background: #fffdfd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: 80%;
+}
+
+.swiper-slide:nth-child(2n) {
+  width: 30%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 30%;
+}
+.image-box{
+    width: 100%;
+    height: 370px;
+}
+.image-box img{
+    width: 100%;
+    height: 100%;
+}
+.card-dv{
+    background-color: #efefef;
+}
+.card-dv:hover .het-1{
+   transform: scale(1.1);
+}
+.card-dv .het-1{
+    height: 370px;
+    transition: .5s ease;
+}
+.card-dv:hover .het-2{
+    transform: scale(1.1);
+ }
+ .card-dv .het-2{
+     transition: .5s ease;
+ }
+.card-dv .het-bg-2{
+    height: 100%;
+    background: linear-gradient(rgba(0,0,0,.1),rgba(65, 110, 155, 0.555));
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(100%);
+}
+.card-dv:hover .het-bg-2{
+    transform: translateY(0);
+    transition: .5s ease;
+}
+.link{
+    background-color:#42424271;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+}
+.link:hover{
+    background-color:#efefef;
+}
+.text-gray{
+    color: #d1cccc;
+}
+.text-yellow{
+    color: #FF7200;
+}
+.h-size{
+    height: 450px;
+}
+.align-ic{
+    align-items: center;
+}
+.p-12{
+    padding: 12px;
+}
+.bgg-gray{
+    background-color: #e6e5e5;
+}
+.p-auutoo{
+    padding: 20px 12px 80px 12px;
+}
+.text-footer{
+   color: #629AD1;  
+}
+.bg-blue-gallery{
+    background: #416e9ba1;
+}
+.bg-blue-gallery:hover{
+    background: #416e9be5;
+}
+.h-250{
+    height: 250px;
+}
+.h-400{
+    height: 400px;
+}
+.bgg-black:hover .imagefaq{
+    transform: scale(1.1);
+}
+.bgg-black .imagefaq{
+    transition: .5s ease;
+}
+.ts-set{
+    top: 14%;
+    left: 37%;
+}
+.ts2-set{
+    top: 40%;
+    left: 27%;
+}
+.text-gray2{
+    color: #00000087;
+}
+.ts3-set{
+    top: 90%;
+    left: 27%;
+}
+.color-B5{
+    color: #0077B5;
+}
+.color-F2{
+    color: #1DA1F2;
+}
+.color-F0{
+    color: #0D8AF0;
+}
+.insta-gr{
+    color:#EB3D77 ;
+}
+.w-95{
+    width: 95%;
+}
+.w-5{
+    width: 5%;
+}
+.para-hide{
+    display: none;
+}
+.w-19{
+    width: 19%;
+}
+.w-33{
+    width: 33.3%;
+}
+.w-60{
+    width: 60%;
+}
+.w-40{
+    width: 40%;
+}
+.fs-20{
+    font-size: 18px;
+}
+.sect-formto{
+    margin: 0px;
+ }
+ .sect-formto .image{
+     height: 650px;
+     
+ }
+ .sect-formto .form-dv{
+     margin-left: 370px;
+     margin-top: 128px;
+ }
+ .sect-formto .form-dv .icon-top{
+     padding-left: 55px;
+     padding-right: 55px;
+ }
+ .sect-formto .form-dv .buttton{
+     padding-left: 85px;
+     padding-right: 85px;
+ }
+ .bg-blue-t{
+     background-color:#416e9b9f ;
+ }
+ .bg-dark-t{
+     background-color:#212529ad ;
+ }
