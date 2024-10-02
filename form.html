@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task Two</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" type="image/x-icon" href="assets/images/1f30f.svg">
+    <link href="assets/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-------------------------------- navbar with logo  --------------------->
+    <nav class="navbar navbar-expand-lg navbar-white bg-white fixed-top pt-0 pb-0">
+        <div class="container-fluid">
+          <!-- logo image -->
+          <a class="navbar-brand me-0 ms-5" href="index.html"><img src="assets/images/OOLING.png" class="w-45 img-fluid " alt=""></a>
+          <button class="navbar-toggler d-lg-none  " type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+              aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon blue-color pt-1"><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+              <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                  <!-- active page -->
+                  <li class="nav-item">
+                      <a class="nav-link fw-bolder blue-color  active" href="index.html" aria-current="page">Home </a>
+                  </li>
+                  <!-- list dropdown -->
+                  <li class="nav-item ps-lg-2">
+                      <a class="nav-link fw-bolder blue-color " href="#">Products <i class="fa-solid fa-caret-down blue-color"></i></a>
+                      <ul class="under-list position-absolute ps-2 bg-white shadow ">
+                          <li class="list-item-2">
+                              <a href="Split-AC.html" class="list-a-2 blue-color">Split AC</a>
+                              <a href="window-ac.html" class="list-a-2 blue-color">Window AC</a>
+                              <a href="cassette-ac.html" class="list-a-2 blue-color">Cassette AC </a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="nav-item ps-lg-2">
+                      <a class="nav-link fw-bolder blue-color " href="gallery.html">Gallery</a>
+                  </li>
+                  <li class="nav-item ps-lg-2 ">
+                      <a class="nav-link fw-bolder blue-color  " href="#aboutUs">About us</a>
+                  </li>
+                  <li class="nav-item ps-lg-2">
+                      <a class="nav-link fw-bolder blue-color   " href="FAQ.html">FAQ</a>
+                  </li>
+                   <li class="nav-item ps-lg-2">
+                      <a class="nav-link fw-bolder blue-color   " href="#Contactus">Contact us</a>
+                  </li>
+              </ul>
+              <!-- nav icon -->
+              <div class="d-flex w-35">
+                 <div class="pt-3">
+                  <a href="form.html" class="blue-color"><i class="fa-solid fa-user fs-4 pe-3"></i></a>
+                 </div>
+                 <div class="pt-3">
+                  <a href="#" class="blue-color"><i class="fa-solid fa-bag-shopping fs-4 pe-3"></i></a>
+              </div>
+              <!-- search bar -->
+                  <section class="box w-100">
+                      <input type="checkbox" id="check">
+                      <div class="search position-relative rounded-pill">
+                          <input type="search" placeholder="Search" class=" inp  position-absolute bg-white blue-color w-100 h-100 rounded-pill ps-3 fs-5">
+                          <label for="check" class="position-absolute end-0 icon fs-5 top-0 w-50px text-center bg-blue  rounded-pill h-100">
+                              <i class="fa-solid fa-magnifying-glass text-white "></i>
+                          </label>
+                      </div>
+                  </section>
+          </div>
+    </div>
+  </nav>
+
+
+    <section class="sect-formto mt-5">
+        <img src="assets/images/form.jpg" alt="img not found" class="position-relative img-fluid w-100 image">
+        <div class="container">
+            <form action="" id="form">
+                <div class="position-absolute bg-dark-t w-25 p-5 top-0 form-dv ">
+                    <span class="position-absolute top-0 start-50 pt-5 pb-5 icon-top translate-middle badge rounded-pill bg-blue-t">
+                        <i class="fa-solid fa-user h2"></i>
+                    </span>
+                    
+                    <div class="text-center">
+                        <h4 class="text-light pt-5">Login Here</h4>
+                    </div>
+                    <div class=" pt-2">
+                        <p id="error" hidden>please fill out all fields</p>
+                        <label for="emailId" class="text-light form-label p-0 m-0  ">Username</label>
+                        <input id="emailId" type="email" class="w-100 form-control bg-dark-t border-0 text-light border-bottom" placeholder="Enter Username">
+                    </div>
+                    <div class=" pt-3">
+                        <label for="passId" class="text-light form-label p-0 m-0">password</label>
+                        <input id="passId" type="password" class="w-100 form-control bg-dark-t border-0 text-light border-bottom" placeholder="Enter password">
+                    </div>
+                    <div class="text-center pt-4">
+                        <button type="button" class="bg-blue-t border-0 rounded-pill  buttton pt-1 pb-1 text-light fw-bold" id="login">Login</button>
+                    </div>
+                    <div class="pt-2">
+                        <p class="small text-white p-0 m-0"> <small>Lost your password?</small></p>
+                        <p class="small text-white p-0 m-0"> <small>Don't have an account</small></p>
+                    </div>
+                </div>
+                
+            </form>
+        </div>
+    </section>
+
+     <!-- ------------------------------------------- footer-section ------------------------------------------->
+         <!------ logo about office link  -->
+         <section class="bgg-gray mt-5">
+            <div class="container-fluid pt-5">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-5 col-xxl-5">
+                        <img src="assets/images/logo-footer.png" alt="img not found" class="mt-4  img-fluid w-45 ms-5">
+                        <div class="ms-5 ps-5 text-footer mt-4 pe-5">
+                            <p class="ms-1 h5 lh-base text-footer pb-5">Rheem Cooling has been operating since 1999 through technical collaboration with AEG. In 2001 it was acquired by CARD Group and went public a decade later</p>                           
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2">
+                        <h5 class="blue-color fw-bolder h4 mt-3">Offices</h5>
+                        <div class="text-footer mt-5  ">
+                            <p><b class="blue-color">Rheem Cooling Head Office</b> Head Office: House No A-1/18, Sector I Block C220</p>
+                            <p class="mt-4"><b class="blue-color">Rheem Cooling Lahore Office</b> COLABS, 40 Gurumangat FD, Block R, Gulberg IXI, Lahore, Punjab</p>    
+                        </div>
+    
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-2 col-xl-2 col-xxl-2">
+                        <h5 class="blue-color fw-bolder h4 mt-3 ps-4">Link</h5>
+                        <div class="text-footer mt-5  ps-4">
+                            <p class="mb-2 "><a href="#Contactus" class="text-footer text-decoration-none">Contact us</a></p>
+                            <p class="mb-2 "><a href="#" class="text-footer text-decoration-none">FAQ</a></p>    
+                            <p class="mb-2 "><a href="#aboutUs" class="text-footer text-decoration-none">About us</a></p>    
+                            <p class="mb-2 "><a href="#" class="text-footer text-decoration-none">Product</a></p>    
+                            <p class="mb-2 "><a href="#" class="text-footer text-decoration-none">Gellery</a></p>           
+                        </div>
+    
+                    </div>
+                   
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3">
+                        <h5 class="blue-color fw-bolder h4 mt-3">link</h5>
+                        <div class=" mt-5  ">
+                            <i class="fa-brands fa-facebook-square color-F0  display-5 ps-1"></i>
+                            <i class="fa-brands fa-linkedin  display-5 ps-1 color-B5"></i>
+                            <i class="fa-brands fa-instagram-square insta-gr display-5 ps-1"></i>
+                            <i class="fa-brands fa-twitter-square color-F2 display-5 ps-1"></i>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12 p-0">
+                        <div class="border-top border-3 w-100 bg-white">
+                           <marquee behavior="" direction="left" class="d-flex">
+                            <div class="text-center inline-block bg-white blue-color p-4  float-left ps-5 fs-5 fw-bold">
+                                <span id="hour">00</span>
+                                <span>:</span>
+                                <span id="minute">00</span>
+                                <span>:</span>
+                                <span id="SEC">00</span>
+                                <span id="seeion">AM</span>
+                                <span class="ps-5"></span>
+                                <span id="day"></span>
+                                <span>:</span>
+                                <span id="month"></span>
+                                <span>:</span>
+                                <span id="year"></span>
+                                <span class="ps-5">SHAHRAH-E-FAISAL BRANCH</span>
+                                <span class="ps-5">//@gmail.com</span>
+    
+                            </div>
+    
+                           </marquee>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+   
+
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.min,js"></script>
+    <script src="assets/dist/aos.js"></script>
+    <script> AOS.init(); </script>
+    <script language = "javascript" type="text/javascript" src="assets/js/script.js"></script>
+</body>
+</html>
